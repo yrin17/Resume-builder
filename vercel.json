@@ -1,1 +1,9 @@
-
+{
+  "version": 2,
+  "redirects": [
+    { "source": "/old-path", "destination": "/new-path", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/functions/$1" }
+  ]
+}
